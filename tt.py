@@ -5,28 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 
-fig, ax = plt.subplots()
-x=[]
-y=[]
-for i in range(-20,21,3):
-    x.append(i)
-    y.append(-2*i*i + 3*i + 5)
-
-
-plt.plot(x,y)
-
-st.pyplot(fig)
 
 
 
-
-
-
-
-
-
-import sys
-sys.exit()
 
 col1, col2, col3 = st.columns(3)
 
